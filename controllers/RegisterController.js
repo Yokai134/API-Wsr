@@ -3,7 +3,7 @@ const db = require('../settings/config')
 
 exports.Registr = (req,res)=>{
         const {login,pwd} = req.query;
-        if(surname == undefined){
+        if(login == undefined){
             response.statusError(rows,res,400);
         }
         else{
